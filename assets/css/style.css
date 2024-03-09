@@ -67,6 +67,15 @@ main{
     flex: 1 0 auto;
 }
 
+/*Devices 992px and up*/
+@media screen and (min-width:992px) {
+    #navigation a:hover {
+        border-bottom: 2px dashed black;
+    }
+    
+}
+
+
 /* Footer of page */
 footer {
 
