@@ -60,37 +60,33 @@ h1 {
     
 }
 
-/*Creating dropdown for the nav*/
-nav {
-    position: absolute;
-    background-color: aqua;
-    top: 100%;
-    display: none;
-    width: 100%;
-    padding: 0 2rem;
-    box-shadow: 1px 2px 2px blueviolet;
-}
-
-
-#toggle {
-    display: none;
-}
-
-.toggle-view {
-    font-size: 5rem;
-    font-weight:lighter;
-    padding-top: 1rem;
-    width: 40%;
-}
-
-#toggle:checked~nav {
-    display: block;
-}
-
-
 
 /*Main Section */
 main{
-
+    margin-top: 140px;
     flex: 1 0 auto;
+}
+
+/* Footer of page */
+footer {
+
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #navigation {
+        display: flex;
+
+    }
+
+    #navigation > li {
+        padding-left: 2rem;
+    }
 }
