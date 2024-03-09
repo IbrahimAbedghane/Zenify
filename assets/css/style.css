@@ -5,3 +5,22 @@
     box-sizing:border-box;
 }
 
+/* Styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Style for the main project*/
+    color: black;
+}
+
+/* Top Of Page */
+header {
+
+}
+
+/*Main Section */
+main{
+
+    flex: 1 0 auto;
+}
