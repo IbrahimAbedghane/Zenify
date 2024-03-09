@@ -35,6 +35,7 @@ header a {
     color: inherit;
 }
 
+
 h1 {
     text-transform: capitalize;
     font-family: 'Outfit', sans-serif;
@@ -77,8 +78,13 @@ main{
 
 
 /* Footer of page */
-footer {
-
+#social-networks {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 190%;
+    color: aquamarine;
 }
 
 @media screen and (min-width: 768px) {
@@ -99,3 +105,4 @@ footer {
         padding-left: 2rem;
     }
 }
+
