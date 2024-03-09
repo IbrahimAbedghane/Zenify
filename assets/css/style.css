@@ -20,11 +20,22 @@ body {
 
 /* Top Of Page */
 header {
+background-color: aqua;
+position: fixed;
+z-index: 99;
+width: 100%;
+box-shadow: 1.5px 3px 3px;
+}
 
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
+    text-transform: capitalize;
     font-family: 'Outfit', sans-serif;
+    color:rgb(219, 127, 255);
 }
 
 /*Main Section */
